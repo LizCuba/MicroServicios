@@ -1,0 +1,17 @@
+create database dbLiz;
+use dbLiz;
+
+insert into hospedajes(nombre)
+values("hospedaje1");
+insert into hospedajes(nombre)
+values("hospedaje2");
+
+insert into reservas(costo)
+values("20 soles");
+insert into reservas(costo)
+values("30 soles");
+
+insert into turistas(direccion, nombre_turista,nro_celular)
+values("Lima", "Juan", "987654321");
+insert into turistas(direccion, nombre_turista,nro_celular)
+values("Cusco","Pedro","9878987");
